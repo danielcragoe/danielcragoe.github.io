@@ -1,0 +1,28 @@
+/* CSS DOCUMENT*/
+
+h1 {
+    
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: skyblue
+}
+
+h5 {
+    color: purple;
+}
+
+p {
+    text-align: left;
+    margin: auto;
+    padding: inherit;
+    font-style: italic;
+}
