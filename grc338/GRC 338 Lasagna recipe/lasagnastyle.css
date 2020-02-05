@@ -1,0 +1,56 @@
+/*CSS DOCUMENT*/
+
+.container {
+    background-color: rgba(220, 190, 0, 55%);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.3em;
+    font-family: serif;
+    font-style: bold;
+    color: rgba(140, 70, 0, 100%);
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    font-family: cursive;
+}
+
+h3 {
+    color: rgba(140, 70, 0, 100%);
+    font-size: 1.4em
+}
+
+img {
+    width: 50%;
+    margin: .5em 18em .5em 18em;
+    align-content: center;
+}
+
+.intro {
+    border: solid;
+    border-color: rgba(140, 70, 0, 100%);
+    align-content: center;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.ingredients {
+    margin: 3.5em 0em 0em 2em;
+}
+
+.directions {
+    margin: 0em 0em 5em 2em;
+}
+
+h6 {
+    text-align: center;
+}
