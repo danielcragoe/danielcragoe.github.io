@@ -27,8 +27,9 @@ h3 {
 
 img {
     width: 50%;
-    margin: .5em 18em .5em 18em;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .intro {
