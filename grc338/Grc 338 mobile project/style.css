@@ -1,0 +1,68 @@
+/* CSS DOCUMENT*/
+img {
+    width: 100%;
+}
+a {
+   text-decoration: none;
+}
+.mainmenu a{
+    color: rgb(0, 180, 300);
+}
+.mainmenu ul{
+    list-style-type: none;
+    padding: 0;
+}
+.mainmenu li{
+    float: left;
+    padding-left: 4em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    font-family: monospace;
+    font-size: 1.32em;
+    text-transform: uppercase;
+    display: inline;
+}
+.header, .mainmenu{
+    clear: both;
+}
+.header{
+    background-color: rgb(0, 200, 300);
+}
+div.footer{
+    background-color: rgb(0, 200, 300);
+    float: left;
+}
+.header img{
+    padding: 0;
+    margin: 0;
+}
+.header p{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(240, 240, 240);
+}
+.menu li{
+    text-align: center;
+}
+.menu p{
+    text-align: center;
+}
+div.contact img{
+    width: 20%;
+}
+.contact {
+    padding:em;
+    float:left;
+}
+.barber img{
+    width: 30%;
+    float: ;
+}
+.barber li{
+    margin: 2em;
+}
