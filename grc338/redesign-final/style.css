@@ -64,11 +64,18 @@ div.footer {
 
 .menu {
     float: left;
+    width: 100%;
+}
+
+.menu h1{
+    text-align: center;
 }
 
 .menu ul {
     list-style-type: none;
     background-color: rgb(240, 240, 240);
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .menu li {
