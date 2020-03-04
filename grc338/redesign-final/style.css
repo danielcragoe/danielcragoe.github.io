@@ -1,0 +1,152 @@
+/* CSS DOCUMENT*/
+
+a {
+    text-decoration: none;
+}
+
+.mainmenu {
+    float: right;
+}
+
+.mainmenu a {
+    color: rgb(0, 180, 300);
+}
+
+.mainmenu ul {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+    margin-right: 3em;
+    border: solid;
+    border-color: rgb(0, 200, 300);
+}
+
+.mainmenu li {
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 2em;
+    font-family: monospace;
+    font-size: 1.35em;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.header,
+.mainmenu {
+    clear: both;
+}
+
+.header {
+    background-color: rgb(0, 200, 300);
+    float: left;
+    width: 25%;
+}
+
+.header img {
+    width: 100%;
+}
+
+div.footer {
+    background-color: rgb(0, 200, 300);
+    float: left;
+    width: 100%;
+}
+
+.footer p {
+    margin-left: 2em;
+}
+
+.header p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.menu {
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.menu li {
+    text-align: center;
+}
+
+.menu p {
+    text-align: center;
+}
+
+div.contact img {
+    width: 20%;
+}
+
+.contact {
+    padding: 3em;
+    float: left;
+}
+
+.barber img {
+    width: 45%;
+}
+
+.barber li {
+    margin: 2em;
+    list-style-type: none;
+}
+
+@media only screen and (min-width: 60em) {
+    div.barber li {
+        float: left;
+        width: 40%
+    }
+}
+
+.intro {
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-bottom: 4em;
+}
+
+.intro p {
+    color: rgb(300, 300, 300);
+}
+
+h1 {
+    color: rgb(300, 300, 300);
+}
+
+.barber h2 {
+    color: rgb(300, 300, 300);
+}
+
+.barber p {
+    color: rgb(300, 300, 300);
+}
+
+.barber ul {
+    margin-right: 15em;
+}
+
+h3 {
+    color: rgb(300, 300, 300);
+}
+
+.intro img {
+    width: 100%;
+}
+
+.barber {
+    float: left;
+    max-width: 80em;
+}
+
+.contact h2 {
+    color: rgb(300, 300, 300);
+}
+
+.contact p {
+    color: rgb(300, 300, 300);
+}
