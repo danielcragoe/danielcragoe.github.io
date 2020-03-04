@@ -6,6 +6,7 @@ a {
 
 .mainmenu {
     float: right;
+    max-width: 43em;
 }
 
 .mainmenu a {
@@ -14,19 +15,20 @@ a {
 
 .mainmenu ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
     float: right;
-    margin-right: 3em;
+    margin-right: 1em;
     border: solid;
     border-color: rgb(0, 200, 300);
 }
 
 .mainmenu li {
-    padding-left: 4em;
-    padding-right: 4em;
-    margin-bottom: 2em;
+    padding-left: 1.62em;
+    padding-right: 1.62em;
     font-family: monospace;
-    font-size: 1.35em;
+    font-size: 1.8em;
     text-transform: uppercase;
     display: inline;
 }
@@ -68,7 +70,7 @@ div.footer {
 }
 
 .menu h1{
-    text-align: center;
+    margin-left: 1em
 }
 
 .menu ul {
@@ -76,10 +78,15 @@ div.footer {
     background-color: rgb(240, 240, 240);
     padding-top: 1em;
     padding-bottom: 1em;
+    padding-right: 4em;
+    padding-left: 4em;
 }
 
 .menu li {
     text-align: center;
+    border: solid;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .menu p {
@@ -90,18 +97,15 @@ div.contact img {
     width: 20%;
 }
 
-.contact {
-    padding: 3em;
-    float: left;
-}
-
 .barber img {
     width: 45%;
+    margin: auto;
 }
 
 .barber li {
     margin: 2em;
     list-style-type: none;
+    text-align: center;
 }
 
 @media only screen and (min-width: 60em) {
@@ -119,10 +123,12 @@ div.contact img {
 
 .intro p {
     color: rgb(300, 300, 300);
+    text-align: center;
 }
 
 h1 {
     color: rgb(300, 300, 300);
+    text-align: center;
 }
 
 .barber h2 {
@@ -134,7 +140,7 @@ h1 {
 }
 
 .barber ul {
-    margin-right: 15em;
+    margin: auto;
 }
 
 h3 {
@@ -147,7 +153,15 @@ h3 {
 
 .barber {
     float: left;
-    max-width: 80em;
+    margin: auto;
+}
+
+.contact {
+    text-align: center;
+    width: 30em;
+    margin: auto;
+    padding: 1em;
+    clear: both;
 }
 
 .contact h2 {
